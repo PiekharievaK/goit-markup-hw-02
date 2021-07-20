@@ -5,23 +5,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Piekharieva_HW2</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
+<body>
 <!-- Шапка страницы -->
 <header>
     <nav>
-        <a href="./" lang="en">WebStudio</a>
-        <ul>
-            <li><a href="#">Студия</a></li>
-            <li><a href="#">Портфолио</a></li>
-            <li><a href="#">Контакты</a></li>
+        <a href="./" lang="en" class="logo"> <span class="logo-color">Web</span>Studio</a>
+        <ul class="site-nav list">
+            <li><a href="./index.html" class="link">Студия</a></li>
+            <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+            <li><a href="#" class="link">Контакты</a></li>
         </ul>
     </nav>
     <!-- Контакты-->
-    <ul>
-        <li><a href="mailto:info@devstudio.com"> info@devstudio.com</a>
+    <ul class="contacts list">
+        <li><a href="mailto:info@devstudio.com" class="link"> info@devstudio.com</a>
         </li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a>
+        <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
         </li>
     </ul>
 
@@ -31,67 +34,78 @@
 <main>
     
     <section>
-        <h1> Портфолио</h1> <!-- Скрыть в css -->
+        <h1 > Портфолио</h1> <!-- Скрыть в css -->
         
         <!--Кнопки сортировки портфолио-->
         <h2>Отсортировать</h2><!-- Скрыть в css -->
-        <ul>
-            <li><button name="all">Все</button></li>
-            <li><button name="websites">Веб-сайты</button></li>
-            <li><button name="apps">Приложения</button></li>
-            <li><button name="design">Дизайн</button></li>
-            <li><button name="Marketing">Маркетинг</button></li>
+        <ul  class="list">
+            <li><button name="all" class="button">Все</button></li>
+            <li><button name="websites" class="button">Веб-сайты</button></li>
+            <li><button name="apps" class="button">Приложения</button></li>
+            <li><button name="design" class="button">Дизайн</button></li>
+            <li><button name="Marketing" class="button">Маркетинг</button></li>
         </ul>
-
         <!-- Примеры работ -->
         
-        <h2>Примеры работ</h2>
+        <h2>Примеры работ</h2> <!-- Скрыть в css -->
 
-        <ul>
+        <ul class="work-exemples list">
             <li>
-                <img src="./images/portfolio1.webp" alt="ноутбук с карточками людей на экране" width=370 height=294>
-                <h3>Технокряк</h3>
-                <p>Веб-сайт</p>
+                <a href="#" class="link"><img src="./images/portfolio1.webp" alt="ноутбук с карточками людей на экране" width=370 height=294>
+                <h3 class="title">Технокряк</h3>
+                <p class="text">Веб-сайт</p>
+                </a>
+                
             </li>
             <li>
-                <img src="./images/portfolio2.webp" alt="два баскетболиста с мячом в прыжке " width=370 height=294>
-                <h3>Постер New Orlean vs Golden Star</h3>
-                <p>Дизайн</p>
+                <a href="#" class="link"> <img src="./images/portfolio2.webp" alt="два баскетболиста с мячом в прыжке " width=370 height=294>
+                <h3 class="title">Постер New Orlean vs Golden Star</h3>
+                <p class="text">Дизайн</p>
+                </a>
             </li>
             <li>
-                <img src="./images/portfolio3.webp" alt="логотип ресторана на фоне рыбы" width=370 height=294>
-                <h3>Ресторан Seafood</h3>
-                <p>Приложение</p>
+                 <a href="#" class="link"> <img src="./images/portfolio3.webp" alt="логотип ресторана на фоне рыбы" width=370 height=294>
+                <h3 class="title">Ресторан Seafood</h3>
+                <p class="text">Приложение</p>
+                </a>
             </li>
             <li>
-                <img src="./images/portfolio4.webp" alt="черные наушники" width=370 height=294>
-                <h3>Проект Prime</h3>
-                <p>Маркетинг</p>
+                <a href="#" class="link"> <img src="./images/portfolio4.webp" alt="черные наушники" width=370 height=294>
+                <h3 class="title">Проект Prime</h3>
+                <p class="text">Маркетинг</p>
+                </a>
             </li>
             <li>
-                <img src="./images/portfolio5.webp" alt="Две коробки белая и коричневая" width=370 height=294>
-                <h3>Проект Boxes</h3>
-                <p>Приложение</p>
+                 <a href="#" class="link"> <img src="./images/portfolio5.webp" alt="Две коробки белая и коричневая" width=370 height=294>
+                <h3 class="title">Проект Boxes</h3>
+                <p class="text">Приложение</p>
+                </a>
+            </li>
+            <li >
+                 <a href="#" class="link"> <img src="./images/portfolio6.webp" alt="монитор с открытм сайтом" width=370 height=294>
+                <h3 lang="en" class="title">Inspiration has no Borders</h3>
+                <p class="text">Веб-сайт</p>
+                </a>
+                
+            </li>
+            <li> 
+                <a href="#" class="link"> <img src="./images/portfolio7.webp" alt="открытая книга с фотографиями и подписями к ним" width=370 height=294>
+                <h3 class="title">Издание Limited Edition</h3>
+                <p class="text">Дизайн</p>
+                </a>
+              </li>
+            <li> 
+                <a href="#" class="link"> <img src="./images/portfolio8.webp" alt=" бирка с названием" width=370 height=294>
+                <h3 class="title">Проект LAB</h3>
+                <p class="text">Маркетинг</p>
+                </a>
+                
             </li>
             <li>
-                <img src="./images/portfolio6.webp" alt="монитор с открытм сайтом" width=370 height=294>
-                <h3>Inspiration has no Borders</h3>
-                <p>Веб-сайт</p>
-            </li>
-            <li>
-                <img src="./images/portfolio7.webp" alt="открытая книга с фотографиями и подписями к ним" width=370 height=294>
-                <h3>Издание Limited Edition</h3>
-                <p>Дизайн</p>
-            </li>
-            <li>
-                <img src="./images/portfolio8.webp" alt=" бирка с названием" width=370 height=294>
-                <h3>Проект LAB</h3>
-                <p>Маркетинг</p>
-            </li>
-            <li>
-                <img src="./images/portfolio9.webp" alt="монитор ноутбука с запущенным приложение" width=370 height=294>
-                <h3>Growing Business</h3>
-                <p>Приложение</p>
+                <a href="#" class="link"><img src="./images/portfolio9.webp" alt="монитор ноутбука с запущенным приложение" width=370 height=294>
+                <h3 lang=en class="title">Growing Business</h3>
+                <p class="text">Приложение</p>
+                </a>
             </li>
         </ul>
 
@@ -100,14 +114,14 @@
 </main>
 
     <!-- Футер -->
-            <footer>
-    <a href="./" lang="en">WebStudio</a>
-    <address>
-        <ul>
+            <footer class="footer">
+<a href="./" lang="en" class="logo"> <span class="logo-color">Web</span>Studio</a>
+    <address class="adress">
+        <ul class="contacts list">
             <li>г. Киев, пр-т Леси Украинки, 26</li>
-            <li><a href="mailto:info@devstudio.com"> info@devstudio.com</a>
+            <li><a href="mailto:info@devstudio.com" class="link"> info@devstudio.com</a>
             </li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a>
+            <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
             </li>
         </ul>
     </address>
